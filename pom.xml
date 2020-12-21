@@ -457,37 +457,17 @@
             </dependency>
             <dependency>
                 <groupId>org.wso2.carbon.identity.server.api</groupId>
-                <artifactId>org.wso2.carbon.identity.api.server.configs.common</artifactId>
-                <version>${identity.server.api.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.wso2.carbon.identity.server.api</groupId>
-                <artifactId>org.wso2.carbon.identity.api.server.tenant.management.common</artifactId>
-                <version>${identity.server.api.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.wso2.carbon.identity.server.api</groupId>
-                <artifactId>org.wso2.carbon.identity.api.server.tenant.management.v1</artifactId>
-                <version>${identity.server.api.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.wso2.carbon.identity.server.api</groupId>
-                <artifactId>org.wso2.carbon.identity.api.server.cors.common</artifactId>
-                <version>${identity.server.api.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.wso2.carbon.identity.server.api</groupId>
-                <artifactId>org.wso2.carbon.identity.api.server.cors.v1</artifactId>
-                <version>${identity.server.api.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.wso2.carbon.identity.server.api</groupId>
-                <artifactId>org.wso2.carbon.identity.api.server.fetch.remote.common</artifactId>
-                <version>${identity.server.api.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.wso2.carbon.identity.server.api</groupId>
                 <artifactId>org.wso2.carbon.identity.api.server.fetch.remote.v1</artifactId>
+                <version>${identity.server.api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.wso2.carbon.identity.server.api</groupId>
+                <artifactId>org.wso2.carbon.identity.api.server.notification.sender.v1</artifactId>
+                <version>${identity.server.api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.wso2.carbon.identity.server.api</groupId>
+                <artifactId>org.wso2.carbon.identity.api.server.notification.sender.common</artifactId>
                 <version>${identity.server.api.version}</version>
             </dependency>
         </dependencies>
